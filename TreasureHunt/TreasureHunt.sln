@@ -17,8 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt.Windows", "Tre
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{51aa97cf-0efe-4858-b046-45f2f4798d70}*SharedItemsImports = 4
 		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{6069fb01-d93a-46ca-8192-105cc4529ecf}*SharedItemsImports = 4
+		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{889a9d75-b6f3-44a3-8a0e-9c8c7a8ccdb3}*SharedItemsImports = 4
 		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{b86a9311-c6e7-4eef-b301-2fb33a0a5f4c}*SharedItemsImports = 13
+		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{bbd8bb2e-6f7c-4960-ab04-b8ef213bd9ed}*SharedItemsImports = 4
 		TreasureHunt\TreasureHunt\TreasureHunt.projitems*{ea2e64b8-7aa2-452e-9232-3d5b1e5dc809}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
