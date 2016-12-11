@@ -25,4 +25,5 @@ using Android.App;
 
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
+[assembly: MetaData("com.facebook.sdk.ApplicationId", Value = "@string/app_id")]
 

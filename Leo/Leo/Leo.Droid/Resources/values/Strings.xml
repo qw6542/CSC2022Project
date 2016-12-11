@@ -2,4 +2,5 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Leo.Droid</string>
+  <string name="app_id">1768418660089649</string>
 </resources>
