@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Leo.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>LeoiOS</AssemblyName>
+    <AssemblyName>Leo.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
