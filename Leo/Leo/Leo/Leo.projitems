@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Menu2.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Quest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Stage.cs" />
   </ItemGroup>
 </Project>
