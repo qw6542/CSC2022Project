@@ -1,0 +1,5 @@
+﻿Use tthe following where you need DB acccess
+
+CurrentPlatform.Init();
+TodoItem item = new TodoItem { Text = "Awesome item" };
+await MobileService.GetTable<TodoItem>().InsertAsync(item);
