@@ -1,0 +1,3 @@
+[submodule "Leo/GeoJSON"]
+	path = Leo/GeoJSON
+	url = https://github.com/GeoJSON-Net/GeoJSON.Net
