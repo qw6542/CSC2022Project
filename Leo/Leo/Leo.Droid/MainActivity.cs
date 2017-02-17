@@ -6,13 +6,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Leo.Droid
 {
 	[Activity (Label = "Leo.Droid", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
+
+        // This goes on every page that requires a data cconnecttion
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://v2steven.azurewebsites.net");
+
+        int count = 1;
 
 		protected override void OnCreate (Bundle bundle)
 		{

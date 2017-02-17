@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Contact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DBFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GPSLocation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoginFB.cs" />
