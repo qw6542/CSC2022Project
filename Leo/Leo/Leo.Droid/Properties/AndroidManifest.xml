@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="uk.ac.ncl.CSC2022Y1617.team25" android:versionName="Leo" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+	<uses-permission android:name="android.permission.NFC" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:label="S.T.E.V.E.N">
+		<provider android:authorities="com.facebook.app.FacebookContentProvider1234" android:name="com.facebook.FacebookContentProvider" android:exported="true" />
+	</application>
+	<activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" />
+</manifest>
